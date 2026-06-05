@@ -41,7 +41,7 @@
     dest: /etc/systemd/system/catalogue.service
 - name: copy mongodb repo
   copy:
-    src: mongo.repo
+    src: roles/mongodb/files/mongo.repo
     dest: /etc/yum.repos.d/mongo.repo
 - name: install mongodb client
   package:
