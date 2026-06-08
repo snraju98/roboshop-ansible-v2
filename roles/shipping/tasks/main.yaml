@@ -39,4 +39,4 @@
 - name: restart
   import_role:
     name: common
-    tasks_from: restart.
+    tasks_from: restart
